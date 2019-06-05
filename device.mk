@@ -30,6 +30,11 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# FM packages
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # HIDL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml

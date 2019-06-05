@@ -49,6 +49,10 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8937
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+TARGET_QCOM_NO_FM_FIRMWARE := true
+
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
